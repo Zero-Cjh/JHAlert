@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Zero-Cjh/JHAlert.git", :tag => "#{spec.version}" }
   
-  spec.source_files  = "JHAlert/Sources/*.swift", "JHAlert/Sources/**/*.swift"
+  spec.source_files  = "Package/Sources/JHAlert/*.swift", "Package/Sources/JHAlert/**/*.swift"
   
   spec.framework = 'UIKit', 'Foundation'
   spec.dependency 'SnapKit'
