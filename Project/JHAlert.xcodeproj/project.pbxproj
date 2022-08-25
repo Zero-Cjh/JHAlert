@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1C1757BBF3EF0AEEDC70B891 /* Pods_JHAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17A821250DB6BEB9BCA07A3 /* Pods_JHAlert.framework */; };
-		F2FDB76728B74D5400307DD2 /* JHAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB75C28B74D5400307DD2 /* JHAlert.swift */; };
-		F2FDB76B28B74D5400307DD2 /* JHAlert_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB76228B74D5400307DD2 /* JHAlert_MainView.swift */; };
-		F2FDB76C28B74D5400307DD2 /* JHAlert_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB76328B74D5400307DD2 /* JHAlert_MainView_Method.swift */; };
-		F2FDB76E28B74D5400307DD2 /* JHAlert_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB76628B74D5400307DD2 /* JHAlert_Header.swift */; };
-		F2FDB77128B74DEE00307DD2 /* JHAlert_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77028B74DEE00307DD2 /* JHAlert_ThemeStyle.swift */; };
+		F2D7F83828B7888F00C144BD /* JHAlert_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F83128B7888F00C144BD /* JHAlert_ThemeStyle.swift */; };
+		F2D7F83928B7888F00C144BD /* JHAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F83228B7888F00C144BD /* JHAlert.swift */; };
+		F2D7F83A28B7888F00C144BD /* JHAlert_MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F83428B7888F00C144BD /* JHAlert_MainView.swift */; };
+		F2D7F83B28B7888F00C144BD /* JHAlert_MainView_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F83528B7888F00C144BD /* JHAlert_MainView_Method.swift */; };
+		F2D7F83C28B7888F00C144BD /* JHAlert_Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7F83728B7888F00C144BD /* JHAlert_Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B7426EB1E220EAAD1E87276 /* Pods-JHAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAlert.debug.xcconfig"; path = "Target Support Files/Pods-JHAlert/Pods-JHAlert.debug.xcconfig"; sourceTree = "<group>"; };
 		A17A821250DB6BEB9BCA07A3 /* Pods_JHAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D7F83128B7888F00C144BD /* JHAlert_ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_ThemeStyle.swift; sourceTree = "<group>"; };
+		F2D7F83228B7888F00C144BD /* JHAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert.swift; sourceTree = "<group>"; };
+		F2D7F83428B7888F00C144BD /* JHAlert_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_MainView.swift; sourceTree = "<group>"; };
+		F2D7F83528B7888F00C144BD /* JHAlert_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_MainView_Method.swift; sourceTree = "<group>"; };
+		F2D7F83728B7888F00C144BD /* JHAlert_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_Header.swift; sourceTree = "<group>"; };
 		F2FDB74E28B74C0B00307DD2 /* JHAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2FDB75C28B74D5400307DD2 /* JHAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert.swift; sourceTree = "<group>"; };
-		F2FDB76228B74D5400307DD2 /* JHAlert_MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_MainView.swift; sourceTree = "<group>"; };
-		F2FDB76328B74D5400307DD2 /* JHAlert_MainView_Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_MainView_Method.swift; sourceTree = "<group>"; };
-		F2FDB76628B74D5400307DD2 /* JHAlert_Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHAlert_Header.swift; sourceTree = "<group>"; };
-		F2FDB77028B74DEE00307DD2 /* JHAlert_ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHAlert_ThemeStyle.swift; sourceTree = "<group>"; };
 		F7D8EA433C1840FC8501CA0C /* Pods-JHAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHAlert.release.xcconfig"; path = "Target Support Files/Pods-JHAlert/Pods-JHAlert.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,10 +56,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F2D7F83028B7888F00C144BD /* JHAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F2D7F83128B7888F00C144BD /* JHAlert_ThemeStyle.swift */,
+				F2D7F83228B7888F00C144BD /* JHAlert.swift */,
+				F2D7F83328B7888F00C144BD /* View */,
+				F2D7F83628B7888F00C144BD /* Header */,
+			);
+			name = JHAlert;
+			path = ../Sources/JHAlert;
+			sourceTree = "<group>";
+		};
+		F2D7F83328B7888F00C144BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D7F83428B7888F00C144BD /* JHAlert_MainView.swift */,
+				F2D7F83528B7888F00C144BD /* JHAlert_MainView_Method.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D7F83628B7888F00C144BD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F2D7F83728B7888F00C144BD /* JHAlert_Header.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		F2FDB74428B74C0B00307DD2 = {
 			isa = PBXGroup;
 			children = (
-				F2FDB75A28B74D5400307DD2 /* Sources */,
+				F2D7F83028B7888F00C144BD /* JHAlert */,
 				F2FDB74F28B74C0B00307DD2 /* Products */,
 				A8CBE865129B42DEE5C58598 /* Pods */,
 				E824855057CB4BD003C65911 /* Frameworks */,
@@ -72,43 +101,6 @@
 				F2FDB74E28B74C0B00307DD2 /* JHAlert.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F2FDB75A28B74D5400307DD2 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB75B28B74D5400307DD2 /* JHAlert */,
-			);
-			name = Sources;
-			path = Package/Sources;
-			sourceTree = "<group>";
-		};
-		F2FDB75B28B74D5400307DD2 /* JHAlert */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB75C28B74D5400307DD2 /* JHAlert.swift */,
-				F2FDB77028B74DEE00307DD2 /* JHAlert_ThemeStyle.swift */,
-				F2FDB76128B74D5400307DD2 /* View */,
-				F2FDB76528B74D5400307DD2 /* Header */,
-			);
-			path = JHAlert;
-			sourceTree = "<group>";
-		};
-		F2FDB76128B74D5400307DD2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB76228B74D5400307DD2 /* JHAlert_MainView.swift */,
-				F2FDB76328B74D5400307DD2 /* JHAlert_MainView_Method.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F2FDB76528B74D5400307DD2 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB76628B74D5400307DD2 /* JHAlert_Header.swift */,
-			);
-			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,11 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FDB76E28B74D5400307DD2 /* JHAlert_Header.swift in Sources */,
-				F2FDB76728B74D5400307DD2 /* JHAlert.swift in Sources */,
-				F2FDB77128B74DEE00307DD2 /* JHAlert_ThemeStyle.swift in Sources */,
-				F2FDB76C28B74D5400307DD2 /* JHAlert_MainView_Method.swift in Sources */,
-				F2FDB76B28B74D5400307DD2 /* JHAlert_MainView.swift in Sources */,
+				F2D7F83C28B7888F00C144BD /* JHAlert_Header.swift in Sources */,
+				F2D7F83928B7888F00C144BD /* JHAlert.swift in Sources */,
+				F2D7F83B28B7888F00C144BD /* JHAlert_MainView_Method.swift in Sources */,
+				F2D7F83A28B7888F00C144BD /* JHAlert_MainView.swift in Sources */,
+				F2D7F83828B7888F00C144BD /* JHAlert_ThemeStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
