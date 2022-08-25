@@ -2,10 +2,10 @@
 
 script_dir="$( cd "$( dirname "$0"  )" && pwd  )"
 
-WORKSPACE_NAME="JHTextField"
+WORKSPACE_NAME="JHAlert"
 PROJECT_NAME=$WORKSPACE_NAME
 
-FRAMEWORK_NAME="JHTextField"
+FRAMEWORK_NAME="JHAlert"
 FRAMEWORK_PATH=$script_dir/'Framework'
 FRAMEWORK_BUILD_OS_PATH=$FRAMEWORK_PATH/'Release-iphoneos'
 FRAMEWORK_BUILD_SIMULATOR_PATH=$FRAMEWORK_PATH/'Release-iphonesimulator'

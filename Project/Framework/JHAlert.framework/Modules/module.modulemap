@@ -1,0 +1,4 @@
+framework module JHAlert {
+  header "JHAlert-Swift.h"
+  requires objc
+}
