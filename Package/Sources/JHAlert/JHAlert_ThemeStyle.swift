@@ -20,6 +20,7 @@ import UIKit
         }
         set {
             JHAlert_TitleColor = newValue
+            JHAlertManager.titleColor = newValue
         }
     }
     
@@ -32,6 +33,7 @@ import UIKit
         }
         set {
             JHAlert_MsgColor = newValue
+            JHAlertManager.msgColor = newValue
         }
     }
     
@@ -44,6 +46,7 @@ import UIKit
         }
         set {
             JHAlert_CancelColor = newValue
+            JHAlertManager.cancelColor = newValue
         }
     }
     
@@ -56,6 +59,7 @@ import UIKit
         }
         set {
             JHAlert_ConfirmColor = newValue
+            JHAlertManager.confirmColor = newValue
         }
     }
     
@@ -70,6 +74,7 @@ import UIKit
         }
         set {
             JHAlert_TitleFont = newValue
+            JHAlertManager.titleFont = newValue
         }
     }
     
@@ -84,6 +89,7 @@ import UIKit
         }
         set {
             JHAlert_MsgFont = newValue
+            JHAlertManager.msgFont = newValue
         }
     }
     
@@ -96,6 +102,7 @@ import UIKit
         }
         set {
             JHAlert_AlertViewColor = newValue
+            JHAlertManager.alertViewColor = newValue
         }
     }
     
@@ -112,6 +119,7 @@ import UIKit
         }
         set {
             JHAlert_BackgroundColor = newValue
+            JHAlertManager.backgroundColor = newValue
         }
     }
     
@@ -124,6 +132,7 @@ import UIKit
         }
         set {
             JHAlert_CancelString = newValue
+            JHAlertManager.cancelString = newValue
         }
     }
     
@@ -136,6 +145,7 @@ import UIKit
         }
         set {
             JHAlert_ConfirmString = newValue
+            JHAlertManager.confirmString = newValue
         }
     }
 }
