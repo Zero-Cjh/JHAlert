@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JHAlert"
   
-  spec.version      = "1.6.0"
+  spec.version      = "1.7.0"
   
   spec.summary      = "A simple Alert with iOS."
 
