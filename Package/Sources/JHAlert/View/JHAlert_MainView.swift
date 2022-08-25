@@ -12,9 +12,7 @@ import SnapKit
 class JHAlertMainView: UIView {
     
     @objc func didClick(_ button: UIButton) {
-        if let resultBlock = resultBlock {
-            resultBlock(button.isEqual(self.confirmBtn) ? true : false)
-        }
+        self.resultBlock?(button.isEqual(self.confirmBtn) ? true : false)
         self.didTouchCancelBtn(button)
         self.remove()
     }
@@ -93,9 +91,7 @@ class JHAlertMainView: UIView {
     @objc func didClickBackground(_ button: UIButton) {
         print("didClickAlertBackground")
         if self.displayBtnCount == 0 {
-            if let resultBlock = self.resultBlock {
-                resultBlock(true)
-            }
+            self.resultBlock?(true)
             self.impactLight.impactOccurred()
             self.remove()
         }
