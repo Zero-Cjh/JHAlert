@@ -1,0 +1,7 @@
+target 'JHAlert' do
+
+use_frameworks!
+
+end
+
+
