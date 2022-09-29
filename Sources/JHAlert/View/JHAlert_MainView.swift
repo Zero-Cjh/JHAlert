@@ -244,7 +244,11 @@ class JHAlertMainView: UIView {
     }()
     
     lazy var blurEffect: UIVisualEffectView = {
-        blurEffect = UIVisualEffectView(effect: UIBlurEffect(style: .systemMaterialLight))
+        var style = UIBlurEffect.Style.extraLight
+        if #available(iOS 13.0, *) {
+            style = .systemMaterialLight
+        }
+        blurEffect = UIVisualEffectView(effect: UIBlurEffect(style: style))
         return blurEffect
     }()
     

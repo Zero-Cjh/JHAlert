@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JHAlert"
   
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   
   spec.summary      = "A simple Alert with iOS."
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Zero-Cjh" => "876832130@qq.com" }
 
-  spec.platform     = :ios, "13.0"
+  spec.platform     = :ios, "11.0"
 
   spec.source       = { :git => "https://github.com/Zero-Cjh/JHAlert.git", :tag => "#{spec.version}" }
   
